@@ -1,16 +1,13 @@
-package org.niiish32x.logfieldaop.dao.customer.repo.impl;
+package org.niiish32x.logfieldaop.dao.customer.persistence.repo.impl;
 
-import org.niiish32x.logfieldaop.common.Result;
-import org.niiish32x.logfieldaop.dao.customer.CustomerDAO;
-import org.niiish32x.logfieldaop.dao.customer.converter.CustomerConverter;
+import org.niiish32x.logfieldaop.dao.customer.persistence.dao.CustomerDAO;
+import org.niiish32x.logfieldaop.dao.customer.persistence.converter.CustomerConverter;
 import org.niiish32x.logfieldaop.dao.customer.persistence.CustomerDO;
-import org.niiish32x.logfieldaop.dao.customer.repo.CustomerRepo;
+import org.niiish32x.logfieldaop.dao.customer.persistence.repo.CustomerRepo;
 import org.niiish32x.logfieldaop.domain.entity.CustomerEO;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

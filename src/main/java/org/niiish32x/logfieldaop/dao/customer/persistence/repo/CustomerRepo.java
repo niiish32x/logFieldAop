@@ -1,4 +1,4 @@
-package org.niiish32x.logfieldaop.dao.customer.repo;
+package org.niiish32x.logfieldaop.dao.customer.persistence.repo;
 
 import org.niiish32x.logfieldaop.common.Result;
 import org.niiish32x.logfieldaop.domain.entity.CustomerEO;

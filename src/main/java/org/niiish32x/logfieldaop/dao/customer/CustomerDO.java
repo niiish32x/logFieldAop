@@ -1,4 +1,4 @@
-package org.niiish32x.logfieldaop.dao.customer.persistence;
+package org.niiish32x.logfieldaop.dao.customer;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
