@@ -50,4 +50,10 @@ public class PayServiceImpl implements PayService {
 
         return updateRes ? Result.success() : Result.error("支付错误");
     }
+
+    @Override
+    public Result createPayment(PaymentEO paymentEO) {
+        boolean res = paymentRepo.save(paymentEO);
+        return res ? Result.success() : Result.error("保存失败");
+    }
 }

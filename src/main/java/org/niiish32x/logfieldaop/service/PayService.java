@@ -13,4 +13,6 @@ public interface PayService {
      * @return
      */
     Result pay(PaymentEO paymentEO, AccountEO accountEO);
+
+    Result <PaymentEO> createPayment(PaymentEO paymentEO) ;
 }
