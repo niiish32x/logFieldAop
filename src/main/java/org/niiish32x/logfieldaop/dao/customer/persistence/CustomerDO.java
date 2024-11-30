@@ -1,11 +1,19 @@
-package org.niiish32x.logfieldaop.domain.entity;
+package org.niiish32x.logfieldaop.dao.customer.persistence;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+@TableName("customer")
 @Data
-public class CustomerEO {
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class CustomerDO {
 
     // 客户编号，主键，唯一标识每个客户
     private Long id;
