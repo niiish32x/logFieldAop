@@ -1,9 +1,9 @@
-package org.niiish32x.logfieldaop.dao.payment.repo.impl;
+package org.niiish32x.logfieldaop.dao.payment.persistence.repo.impl;
 
-import org.niiish32x.logfieldaop.dao.payment.PaymentDAO;
-import org.niiish32x.logfieldaop.dao.payment.converter.PaymentConverter;
-import org.niiish32x.logfieldaop.dao.payment.persistence.PaymentDO;
-import org.niiish32x.logfieldaop.dao.payment.repo.PaymentRepo;
+import org.niiish32x.logfieldaop.dao.payment.persistence.dao.PaymentDAO;
+import org.niiish32x.logfieldaop.dao.payment.persistence.converter.PaymentConverter;
+import org.niiish32x.logfieldaop.dao.payment.PaymentDO;
+import org.niiish32x.logfieldaop.dao.payment.persistence.repo.PaymentRepo;
 import org.niiish32x.logfieldaop.domain.entity.PaymentEO;
 import org.springframework.stereotype.Repository;
 

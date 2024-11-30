@@ -1,4 +1,4 @@
-package org.niiish32x.logfieldaop.dao.payment.repo;
+package org.niiish32x.logfieldaop.dao.payment.persistence.repo;
 
 import org.niiish32x.logfieldaop.domain.entity.PaymentEO;
 
