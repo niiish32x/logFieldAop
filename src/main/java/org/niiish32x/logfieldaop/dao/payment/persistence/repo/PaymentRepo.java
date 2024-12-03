@@ -1,6 +1,5 @@
 package org.niiish32x.logfieldaop.dao.payment.persistence.repo;
 
-import org.niiish32x.logfieldaop.common.Result;
 import org.niiish32x.logfieldaop.domain.entity.PaymentEO;
 
 import java.math.BigDecimal;

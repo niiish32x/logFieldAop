@@ -1,6 +1,6 @@
 package org.niiish32x.logfieldaop.service;
 
-import org.niiish32x.logfieldaop.common.Result;
+import org.niiish32x.logfieldaop.common.result.Result;
 import org.niiish32x.logfieldaop.domain.entity.AccountEO;
 import org.niiish32x.logfieldaop.domain.entity.PaymentEO;
 

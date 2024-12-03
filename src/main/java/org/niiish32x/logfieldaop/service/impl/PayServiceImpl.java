@@ -1,6 +1,8 @@
 package org.niiish32x.logfieldaop.service.impl;
 
-import org.niiish32x.logfieldaop.common.Result;
+
+import org.niiish32x.logfieldaop.aspect.annotation.LogFieldAsp;
+import org.niiish32x.logfieldaop.common.result.Result;
 import org.niiish32x.logfieldaop.dao.account.persistence.repo.AccountRepo;
 import org.niiish32x.logfieldaop.dao.customer.persistence.repo.CustomerRepo;
 import org.niiish32x.logfieldaop.dao.payment.persistence.repo.PaymentRepo;
@@ -27,11 +29,12 @@ public class PayServiceImpl implements PayService {
 
 
     @Override
+    @LogFieldAsp
     public Result pay(PaymentEO paymentEO, AccountEO accountEO) {
 
         // 检查支付金额 是否有效
         if (paymentEO.getAmount().compareTo(BigDecimal.ZERO) <= 0) {
-            return Result.error("支付金额必须大于零");
+            return Result.error("金额不足 无法支付");
         }
 
         // 检查账户 余额是否 足够支付

@@ -1,6 +1,5 @@
 package org.niiish32x.logfieldaop.dao.payment.persistence.repo.impl;
 
-import org.niiish32x.logfieldaop.common.Result;
 import org.niiish32x.logfieldaop.dao.payment.persistence.dao.PaymentDAO;
 import org.niiish32x.logfieldaop.dao.payment.persistence.converter.PaymentConverter;
 import org.niiish32x.logfieldaop.dao.payment.PaymentDO;

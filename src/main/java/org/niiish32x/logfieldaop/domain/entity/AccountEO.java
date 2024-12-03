@@ -1,10 +1,16 @@
 package org.niiish32x.logfieldaop.domain.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class AccountEO {
 
     // 账户编号，唯一标识每个账户

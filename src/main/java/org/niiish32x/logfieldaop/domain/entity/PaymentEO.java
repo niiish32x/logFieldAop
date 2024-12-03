@@ -1,11 +1,17 @@
 package org.niiish32x.logfieldaop.domain.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class PaymentEO {
 
     // 支付编号，唯一标识一笔支付记录

@@ -1,10 +1,16 @@
 package org.niiish32x.logfieldaop.domain.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CustomerEO {
 
     // 客户编号，主键，唯一标识每个客户

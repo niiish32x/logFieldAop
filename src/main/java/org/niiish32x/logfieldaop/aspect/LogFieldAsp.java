@@ -25,7 +25,7 @@ public class LogFieldAsp {
      */
     @Before(value = "aspect()")
     public void before(JoinPoint joinPoint) {
-
+        System.out.println("进入切面 ");
     }
 
 }

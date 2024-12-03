@@ -1,11 +1,17 @@
 package org.niiish32x.logfieldaop.dao.account;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class AccountDO {
     // 账户编号，对应数据库表中的id字段
     private Long id;

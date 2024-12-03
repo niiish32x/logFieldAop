@@ -1,7 +1,7 @@
 package org.niiish32x.logfieldaop.controller;
 
 
-import org.niiish32x.logfieldaop.common.Result;
+import org.niiish32x.logfieldaop.common.result.Result;
 import org.niiish32x.logfieldaop.domain.entity.PaymentEO;
 import org.niiish32x.logfieldaop.service.PayService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class PayController {
     PayService payService;
 
     @RequestMapping("/cratePayment")
-    public Result <PaymentEO> createPayment(@RequestBody PaymentEO paymentEO) {
+    public Result<PaymentEO> createPayment(@RequestBody PaymentEO paymentEO) {
         return payService.createPayment(paymentEO);
     }
 }
